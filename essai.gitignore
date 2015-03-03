@@ -1,0 +1,13 @@
+import java.awt.*;
+import java.util.*;
+import java.awt.*;
+import java.util.*;
+import java.awt.event.*;
+import java.applet.*;
+import java.text.*;
+public class dielectriques_ferromagnetisme extends java.applet.Applet implements Runnable{
+    static final double pi=3.141592652;
+    static final double eps0=1/(36*pi*10*Math.pow(10000.0,2));
+    static final double mu0=4*pi/(10*Math.pow(1000.0,2));
+    static int xpos=5,xneg=15,dxposneg=3,dyposneg=1,dipole=1, quadripole=2, dernier=3, choix_sur_disque=4, creer_ensemble=5, ecrire_sur_disque=6, creer=2, eliminer=3, montrer_champs=4;
+    static final int top_stop = 60,left_stop = 20,bottom_stop = 100,right_stop = 100,top_sto

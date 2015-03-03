@@ -2,7 +2,7 @@ import java.awt.*;
 import java.util.*;
 import java.awt.*;
 import java.util.*;
-import java.awt.event.*;
+import java.awt.event.*; 
 import java.applet.*;
 import java.text.*;
 public class dielectriques_ferromagnetisme extends java.applet.Applet implements Runnable{
@@ -32,7 +32,7 @@ public class dielectriques_ferromagnetisme extends java.applet.Applet implements
     Font times_gras_14=new Font("Times",Font.BOLD,14);
     Font times_gras_24=new Font("Times",Font.BOLD,24);
     public  void init (){ 
-	toutdebut=true;
+	  toutdebut=true;
 	run_applet=true;peindre=true;
 	System.out.println("init applet");
 	mm=new MouseStatic(this);
